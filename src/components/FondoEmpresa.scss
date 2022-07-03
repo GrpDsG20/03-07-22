@@ -1,0 +1,342 @@
+/*-----QUIENES SOMOS----*/
+.container-somos {
+    margin: auto;
+    width: 100%;
+    margin-top: 60px;
+    font-family: Montserrat;
+
+
+}
+
+.container-somos h2 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1.875rem;
+    width: 65%;
+    margin: auto;
+
+}
+
+.container-somos p {
+    padding-top: 2.5rem;
+    line-height: 18px;
+    color: #393C41;
+    font-size: 0.938rem;
+    font-family: Montserrat;
+    font-weight: lighter;
+    line-height: 20px;
+    width: 65%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+
+/*container empresas*/
+.container-empresas {
+
+    margin: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: Montserrat;
+    width: 100%;
+
+
+}
+
+.container-context {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0 30px 0;
+    width: 65%;
+    margin: auto;
+
+}
+
+.history {
+    width: 30%;
+    padding: 0;
+
+}
+
+.context {
+    width: 70%;
+    overflow: hidden;
+    color: #393C41;
+    font-size: 0.938rem;
+    font-family: Montserrat;
+
+
+
+}
+.history p {
+    font-size: 1.125rem;
+    color: #171A20;
+    font-family: Montserrat;
+    font-weight: lighter;
+}
+
+.history h2 {
+    font-size: 1.875rem;
+    margin-top: -15px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #171A20;
+
+}
+
+
+
+.context p {
+    padding: 10px;
+}
+
+.imgOne {
+    border-radius: 35px;
+    margin: auto;
+    width: 70%;
+}
+
+/*Container Services*/
+
+.container-context-empresas {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0 30px 0;
+    width: 65%;
+    margin: auto;
+
+
+
+}
+
+.container-services {
+    margin: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: Montserrat;
+    padding-top: 40px;
+    width: 100%;
+
+
+}
+
+.history-services {
+    width: 40%;
+    padding: 0;
+
+}
+
+.context-services {
+    width: 60%;
+    overflow: hidden;
+    color: #393C41;
+    font-size: 0.938rem;
+    font-family: Montserrat;
+}
+.context-services p {
+    padding: 10px;
+}
+
+.history-services p {
+    font-size: 1.125rem;
+    color: #171A20;
+    font-family: Montserrat;
+    font-weight: lighter;
+}
+
+.history-services h2 {
+    font-size: 1.875rem;
+    margin-top: -15px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #171A20;
+}
+
+/*Scream Empresa*/
+
+
+
+
+@media screen and (max-width:1400px) {
+
+    .history {
+        width: 100%;
+        padding: 0;
+    
+    }
+    
+    .context {
+        width: 100%;
+
+    
+    }
+}
+
+@media screen and (max-width:1010px) {
+    .container-somos h2 {
+
+        width: 75%;
+
+    
+    }
+    
+    .container-somos p {
+
+        width: 75%;
+ 
+    }
+    
+    .container-context {
+
+        width: 75%;
+
+    
+    }
+    .imgOne {
+
+        width: 78%;
+    }
+}
+
+@media screen and (max-width:648px) {
+    .container-somos h2 {
+
+        width: 80%;
+
+    
+    }
+    
+    .container-somos p {
+
+        width: 80%;
+ 
+    }
+    
+    .container-context {
+
+        width: 80%;
+
+    
+    }
+    .imgOne {
+
+        width: 85%;
+    }
+
+}  
+@media screen and (max-width: 490px) {
+    .imgOne {
+
+        width: 100%;
+    }
+    .container-context {
+  
+        padding: 20px 0 10px 0;
+
+    
+    }
+ 
+ 
+}
+
+@media screen and (max-width:360px) {
+
+
+    
+    .history p {
+        font-size: 1.063rem;
+    }
+    
+    .history h2 {
+        font-size: 1.5rem;
+
+    
+    }
+    .context {
+
+        font-size: 0.875rem;
+    
+    }
+    .container-somos h2 {
+
+        font-size: 1.5rem;
+    
+    }
+    
+    .container-somos p {
+        padding-top: 0.875rem;
+    }
+    .lines h1 {
+
+        font-size: 1.5rem;
+
+    }
+}
+/*-----slider.css screm-services------*/
+
+
+
+/*sass line Time*/
+.lines {
+    height: auto;
+    width: 100%;
+    margin: auto;
+
+}
+
+.lines h1 {
+    height: auto;
+    text-align: center;
+    margin: auto;
+    color: #171A20;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1.875rem;
+    width: 100%;
+    padding-left:80px ;
+    padding-right: 80px;
+    padding-top: 30px;
+}
+¿
+.input-flex-container {
+    height: auto;
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+.input-flex-container #timeline-descriptions-wrapper{
+    font-family: Montserrat;
+    font-weight: normal;
+    transition: all .3s ease-in-out;
+    text-align: center;
+}
+@media screen and (max-width:700px) {
+
+    .input-flex-container {
+        bottom: 30px;
+    }
+}
+
+@media screen and (max-width:630px) {
+
+ 
+
+    .input-flex-container {
+        bottom: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .lines h1{
+        padding-left:21px ;
+        padding-right: 21px;
+    }
+} 
+
+@media (max-width: 400px) {
+
+    .input-flex-container {
+        bottom: 50px;
+    }
+
+}

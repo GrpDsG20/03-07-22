@@ -1,0 +1,120 @@
+.container-atention{
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: Montserrat;
+
+}
+
+.columns{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+.column-one{
+    margin: 20px auto;
+    padding: 20px;
+    width: 250px;
+    overflow: hidden;
+    font-size: 1rem;
+}
+.column-one a{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+}
+.column-one a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transition: left .8s;
+    }
+    .column-one a:hover:after {
+    left: 0;
+    }
+
+.column-one h3{
+    font-size: 1rem;
+    color:#5C5D61;
+    font-weight: 600;
+    line-height: 25px;
+
+}
+.column-one p{
+    color:#6F7073   ;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 25px;
+
+}
+.Atention{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    width: 100%;
+}
+
+.Clients h2{
+    font-size: 1.875rem;
+    text-align: center;
+    color: #495057;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 1080px) {
+    .columns{
+        flex-wrap: wrap;
+        width: 80%;
+    }
+    .column-one{
+        margin: -10px auto;
+
+    }
+    .Clients{
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+    
+}
+@media screen and (max-width:434px) {
+    .column-one h3{
+        font-size: 16px;
+
+    }
+    .column-one p{
+        font-size: 14px;
+    }
+
+    .Clients h2{
+        font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (max-width:1300px) {
+    .container-contact .d-block{
+        height: 300px;
+        object-position:center;
+        -o-object-position: 0rem;
+        object-fit: cover;
+         }
+    }
+    @media screen and (max-width:480px) {
+        .container-contact .d-block{
+            height: 226px;
+            object-position:center;
+            -o-object-position: 0rem;
+            object-fit: cover;
+             }
+        }
+    
